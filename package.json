@@ -1,0 +1,20 @@
+{
+  "name": "sw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "parcel-bundler": "^1.8.1",
+    "postcss": "^6.0.22",
+    "postcss-import": "^11.1.0",
+    "postcss-modules": "^1.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
