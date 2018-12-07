@@ -15,7 +15,14 @@ Using the Star Wars API build an application to browse People in the Star Wars U
 */
 
 export default class App extends Component {
+  async componentDidMount() {
+    const data = await fetch('https://swapi.co/api/people').then(i => i.json())
+
+    this.setState(data)
+  }
+
   render() {
+    console.info('state', this.state)
     return (
       <p>
         Instructions:
